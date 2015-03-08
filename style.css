@@ -137,7 +137,11 @@ section{
 	margin:0 auto;
 	margin-top:85px;
 	padding:10px;
-	width:40%;
+	width:50%;
 	background-color:#fff;
 	border-radius:8px;
+}
+.formcon{
+    margin:0 auto;
+	width:80%;
 }
