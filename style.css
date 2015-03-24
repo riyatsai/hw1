@@ -78,10 +78,12 @@ footer{
 .titletxt{
 	font-size:40px;
 	margin-left:5px;
+	font-family: 'Poiret One', cursive;
 }
 .subtitletxt{
 	font-size:30px;
 	margin-left:5px;
+	font-family: 'Poiret One', cursive;
 }
 .conbg{
 	display:inline-block;	
@@ -101,6 +103,35 @@ footer{
 	border-radius:5px;
 	padding:10px;
 }
+.info{
+	margin-top:1em;
+	margin-left:1em;
+}
+.infoNum{
+	display:inline-block;
+	font-size:30px;
+	transform:rotate(-20deg);
+	background-color:#8C0044;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	text-indent:10px;
+	color:#fff;
+	font-family: 'Poiret One', cursive;
+}
+.infoSection{
+	padding-left:1em;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	border-left:1px #AAA solid;
+	display:inline-block;
+	border-radius:5px;
+	width:50%;
+}
+.infoSection:hover{
+	background-color:#fff;
+}
 section{
 	font-size:15px;
 }
@@ -112,11 +143,12 @@ section{
 	color:#8C0044;
 	background-color:#fff;
 }
-#headingOne{
+#heading{
 	color:#8C0044;
 }
-#headingTwo{
-	color:#8C0044;
+
+ol>li:nth-child(odd){
+  color:#fff ;
 }
 #app{
 	background-color:#8C0044;
@@ -145,3 +177,30 @@ section{
     margin:0 auto;
 	width:50%;
 }
+/*boostrap*/
+.tab-content > .tab-pane {
+  display: none;
+}
+.tab-content > .active {
+  display: block;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+  padding: 15px;
+}
+.panel > .panel-collapse > .table {
+  margin-bottom: 0;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+/***********/
